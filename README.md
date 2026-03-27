@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # feat-add-priority-filter-and-JSON-export
 A minimal CLI task manager with priority flags and JSON export, built with TypeScript
 export type Priority = 'low' | 'medium' | 'high';
@@ -74,3 +75,18 @@ if (cmd === 'add') {
 node_modules/
 dist/
 tasks.json
+=======
+# Taskify CLI
+
+A minimal CLI task manager with priority flags and JSON export, built with TypeScript.
+
+## Usage
+```bash
+node dist/index.js add "Belajar Git" --priority high
+node dist/index.js list
+node dist/index.js export
+```
+
+## License
+MIT
+>>>>>>> c623012 (fix: separate source files and clean README)
